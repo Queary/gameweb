@@ -32,3 +32,51 @@ header ol li{
   text-align:center;/* выравнивание текста по центру горизнтально */
   line-height:50px;/* выравнивание текста по центру вертикальное */
 }
+/* Отменяет обтекание элемента */
+.clear {
+    clear: both;
+}
+/* Элемент показывается как блочный */
+div {
+    display: block;
+}
+/* список */
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+/* список с классом display */
+ul.display {
+    width: 697px;
+    float: left;
+    margin-bottom: 20px;
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul.display li .bigsec {
+    width: 520px;
+    float: right;
+}
+/* загаловки */
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+}
+ul.display li p.txt {
+    float: left;
+    padding: 10px 0px 15px 0px;
+}
+p {
+    line-height: 18px;
+}
+.display{
+  background: black;
+}
