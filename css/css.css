@@ -1,0 +1,25 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+body{
+  background:#666666;
+}
+
+header{
+  width:80%;
+  height:300px;
+  background:#555555;
+}
+
+header ol{
+  width:100%;
+  list-style-type:none;
+}
+
+header ol li{
+  width:10%;
+  height:25px;
+  background:#444444;
+}
