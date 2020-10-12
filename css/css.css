@@ -52,14 +52,15 @@ footer{
 }
 
 aside{
-  height: 100%;
-  width: 160px;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+  height:calc( 300px - 29px);
+  width:calc( 170px);
+  padding:1.5%;
+  background-color: #111;
+  /* padding-top: 20px; */
+  margin-top: 5%;
+  margin-right: 16%;
+  color: white;
+  float:right;
 }
 
 aside #a{
@@ -70,7 +71,6 @@ aside #a{
   top: 230px;
   right: 0;
   background-color: #111;
-  overflow-x: hidden;
   padding-top: 20px;
   margin-top: 5%;
   color: white;
@@ -84,7 +84,6 @@ aside #v{
   top: 600px;
   right: 0;
   background-color: #111;
-  overflow-x: hidden;
   padding-top: 20px;
   margin-top: 5%;
   color: white;
