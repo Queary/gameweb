@@ -50,3 +50,42 @@ footer{
   float:left;
   margin-top:5%;
 }
+
+aside{
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+aside #a{
+  height: 300px;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  top: 230px;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 5%;
+  color: white;
+}
+
+aside #v{
+  height: 300px;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  top: 600px;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 5%;
+  color: white;
+}
