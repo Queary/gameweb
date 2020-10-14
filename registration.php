@@ -12,7 +12,7 @@
         <li style="margin-left:68%;padding-left:1%;padding-right:1%;" onclick="show()">авторизация</li>
       </ol>
     </header>
-      <section id="reg">
+      <section>
         <h2>Регистрация</h2>
           <p>
               <label>Ваш логин:<br></label>
