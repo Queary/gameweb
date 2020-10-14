@@ -12,7 +12,7 @@ body{
 header{
   width:80%;/* ширина */
   height:50px;/* высота */
-  background:#555555;/* задний фон */
+  background:#656565;/* задний фон */
   /* margin - отодвинуть эл*/
   /* -top,-left от какого направления будет отодвигаться */
   margin-top:10%;
@@ -27,7 +27,7 @@ header ol{
 header ol li{
   width:10%;
   height:50px;
-  background:#444444;
+  background:#858585;
   float:left;/* выравние элемента к левому краю */
   text-align:center;/* выравнивание текста по центру горизнтально */
   line-height:50px;/* выравнивание текста по центру вертикальное */
@@ -37,7 +37,7 @@ section{
   width:calc(60% - 1.5%);
   height:calc(200px - 1.5%);
   padding:1.5%;
-  background:#444444;
+  background:#343434;
   float:left;/* выравние элемента к левому краю */
   margin-top:5%;
   margin-left:5%;
