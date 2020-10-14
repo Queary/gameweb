@@ -35,7 +35,7 @@ header ol li{
 
 section{
   width:calc(60% - 1.5%);
-  height:calc(200px - 1.5%);
+  height:272px;
   padding:1.5%;
   background:#343434;
   float:left;/* выравние элемента к левому краю */
@@ -53,12 +53,12 @@ footer{
 
 aside{
   height:calc( 300px - 29px);
-  width:calc( 170px);
+  width:calc(170px);
   padding:1.5%;
   background-color: #111;
   /* padding-top: 20px; */
   margin-top: 5%;
-  margin-right: 16%;
+  margin-right: 15%;
   color: white;
   float:right;
 }
