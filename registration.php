@@ -14,9 +14,6 @@
       </ol>
     </header>
     <div id="main">
-      <div id="window">
-        <p>123</p>
-      </div>
       <section>
         <h1>Заголовок страницы</h1>
         Основная часть
@@ -28,14 +25,6 @@
           <p>ранг:</p><br><br><br><br><br><br>
           <p style="margin-left:65%;">выход</p>
       </aside>
-      <section>
-        <h1>Заголовок страницы</h1>
-        Основная часть
-      </section>
-      <section>
-        <h1>Заголовок страницы</h1>
-        Основная часть
-      </section>
       <section>
         <h1>Заголовок страницы</h1>
         Основная часть

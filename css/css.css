@@ -8,6 +8,17 @@ body{
   background:#222;
 }
 
+#window{
+  width:calc(25% - 1.5%);
+  height:calc(222px - 1.5%);
+  background:#909090;
+  display:block;
+  position: fixed;
+  padding:1.5%;
+  top:35%;
+  left:35%;
+}
+
 /* дизайн шапки */
 header{
   width:80%;/* ширина */
