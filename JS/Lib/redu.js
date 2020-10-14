@@ -1,11 +1,22 @@
 //alert("redu")
 
 //глоба
-function doc(ele){
-  this.s = {hidden(){
-			return ele.style.display = "none"
-
-		},
+function doc(ido){
+	let ele = document.getElementById(ido)
+	//каталог методов
+	//создание Create
+	this.getel = {
+		ele(id){
+			return ele;
+		}}
+  this.s = {
+  	show(){
+  		return ele.style.display = "block";
+  	},
+    hidden(){
+      return ele.style.display = "none";
+    }}
+  return this
 }
 
 
