@@ -101,15 +101,3 @@ aside #v{
   margin-top: 5%;
   color: white;
 }
-#regist{
-  cursor:default;
-  height:calc( 123px - 29px);
-  width:calc(100px);
-  padding:1.5%;
-  position:absolute;
-  background-color: #111;
-  /* padding-top: 20px; */
-  margin-top: -14%;
-  margin-left:88%;
-  color: white;
-}
