@@ -9,5 +9,17 @@ function connect_file_core(url) {
 function next(path) {
   return document.location.href =path
 }
-connect_file_core("JS/Lib/redu.js");
-connect_file_core("JS/main.js");
+
+var link = document.getElementById("pages_name").innerHTML
+// console.log(link.innerHTML)
+if(link == "games"){
+  connect_file_core("../JS/Lib/redu.js");
+  connect_file_core("../JS/main.js");
+}
+else if(link == "guess_the_number"){
+  connect_file_core("../JS/Lib/redu.js");
+  connect_file_core("../JS/main.js");
+}else{
+  connect_file_core("JS/Lib/redu.js");
+  connect_file_core("JS/main.js");
+}

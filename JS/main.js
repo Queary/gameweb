@@ -4,7 +4,7 @@ function showwindow(){
   //redu
   doc("window").s.show()
   //classic javascript
-  document.getElementById().style.display = "block"
+  document.getElementById("window").style.display = "block"
 }
 
 function hiddenwindow(){
@@ -13,5 +13,5 @@ function hiddenwindow(){
   //redu
   doc("window").s.hidden()
   //classic javascript
-  document.getElementById().style.display = "none"
+  document.getElementById("window").style.display = "none"
 }
