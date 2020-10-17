@@ -7,22 +7,7 @@
     <script src="JS/core.js"></script>
   </head>
   <body>
-      <header>
-      <ol>
-        <li>Главная</li>
-        <li onclick="next('page/games.html')">игры</li>
-        <li style="margin-left:68%;padding-left:1%;padding-right:1%;" onclick="showwindow()">авторизация</li>
-      </ol>
-    </header>
-    <div id="main">
-      <div style="display:none;" id="window">
-        <center><p>окно для входа на сайт</p></center>
-        <br>
-        <p>логин:<input></p><br>
-        <p>пароль:<input></p><br>
-        <br><br><br><br>
-        вход<span onclick="next('registration.html')" style="margin-left:15%;">зарегистрироваться</span><span onclick="hiddenwindow()" style="margin-left:25px;">закрыть</span>
-      </div>
+      <?php include 'php/header.php';?>
       <section>
         <h1>Заголовок страницы</h1>
         Основная часть

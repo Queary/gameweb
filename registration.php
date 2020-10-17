@@ -14,7 +14,7 @@
       </ol>
     </header>
       <section id="reg">
-        <h2>Регистрация</h2>
+        <h2>Регистрация></h2>
           <p>
               <label>Ваш логин:<br></label>
               <input name="login" type="text" size="15" maxlength="15">

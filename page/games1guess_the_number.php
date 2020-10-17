@@ -8,12 +8,7 @@
     <script src="../JS/core.js"></script>
   </head>
   <body>
-      <header>
-      <ol>
-        <li onclick="next('../index.html')">Главная</li>
-        <li>игры</li>
-      </ol>
-    </header>
+        <?php include '../php/header.php';?>
     <div id="main">
       <section style="height:0.5%;">
         <center>цыфра может быть от 1 до 5</center>
