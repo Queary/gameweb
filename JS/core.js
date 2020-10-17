@@ -9,7 +9,6 @@ function connect_file_core(url) {
 function next(path) {
   return document.location.href =path
 }
-
 var link = document.getElementById("pages_name").innerHTML
 // console.log(link.innerHTML)
 if(link == "games"){
